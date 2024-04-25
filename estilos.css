@@ -1,0 +1,120 @@
+/**
+    Así se comenta en los documento css
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400');
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+p {
+    color: #000000;
+    height: 50px;
+    font-size: 150%;
+}
+
+i{
+  color: #000000;
+  height: 50px;
+  font-size: 150%; 
+}
+
+i::before{
+  content: url('https://cdn.icon-icons.com/icons2/4194/PNG/96/finance_accounting_calculation_calculator_icon_262577.png');
+  vertical-align: middle;
+  width: 5%;
+  height: 1%;
+  display: inline-block;
+  transform: scale(.3);
+}
+
+a{
+  color: #000000;
+  height: 50px;
+  font-size: 150%; 
+}
+
+a::before{
+  content: url('https://cdn.icon-icons.com/icons2/4194/PNG/96/task_paper_writing_note_clipboard_icon_262581.png');
+  vertical-align: middle;
+  width: 5%;
+  height: 1%;
+  display: inline-block;
+  transform: scale(.3);
+}
+
+h1{
+    color: #595f39;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+    text-align: justify;
+}
+
+
+
+
+.header {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 15px;
+  }
+  
+.Fondo {
+    width: 15%;
+    float: left;
+    border: 1px solid rgb(0, 0, 0);
+    display:block;
+    text-align: center;
+    margin-right: 5px;
+  }
+  
+  .menu {
+    background-color: #A8CD9F;
+    width: 15%;
+    height: 50%;
+    float: left;
+    padding: 15px;
+    display:block;
+    text-align: center;
+    margin-right: 5px;
+    background-image: fondito;
+  }
+  
+  .Info_general {
+    background-color: #E2F4C5;
+    width: 84%;
+    float: right;
+    padding: 15px;
+    display:block;
+    margin-bottom: 5px;
+  }
+
+  .Formacion_prof {
+    background-color: #E2F4C5;
+    width: 84%;
+    float: right;
+    padding: 15px;
+    display:block;
+    margin-bottom: 5px;
+  }
+
+  .Experiencia_lab {
+    background-color: #E2F4C5;
+    width: 84%;
+    float: right;
+    padding: 15px;
+    display:block;
+    margin-bottom: 5px;
+  }
+
+  .footer {
+    background-color: #E2F4C5;
+    width: 84%;
+    float: right;
+    padding: 15px;
+    display:block;
+    margin-bottom: 5px
+  }
+
+
